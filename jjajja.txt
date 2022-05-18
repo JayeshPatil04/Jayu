@@ -1,0 +1,1 @@
+curl -X POST 'https://anypoint.mulesoft.com/cloudhub/api/v2/applications/sample-soap-service/staticips' -H "x-anypnt-env-id: 73a6c1b1-510e-4889-88e2-9c071ebc472b" -H "x-anypnt-org-id: 3d81e4b1-c8cc-419e-83ec-0f1945a0e122" -H "authorization: Bearer 0fcc5875-9797-4957-b6c3-375bf1f58af0" -H "Content-Type: application/json" -d '{"region":"eu-west-1"}'
